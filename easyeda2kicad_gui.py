@@ -39,7 +39,7 @@ except:
 CONFIG_FILE = os.path.join(os.path.expanduser("~"), ".easyeda2kicad_config.json")
 
 # GitHubリポジトリのURL
-GITHUB_URL = "https://github.com/uPesy/easyeda2kicad"
+GITHUB_URL = "https://github.com/HSBL-ko-gyo/easyeda2kicad_gui"
 
 # easyeda2kicadがインストールされているかを正確に確認する
 def is_easyeda2kicad_installed():
