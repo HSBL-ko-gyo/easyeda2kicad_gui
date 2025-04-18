@@ -4,12 +4,14 @@
 
 [English](#english) | [日本語](#japanese)
 
-![Screenshot](screenshot.png)
+<img src="https://github.com/user-attachments/assets/229c6a50-8848-4ca5-b0e7-d62c87626300"
+     width="800"
+     alt="画像">
 
 <a name="english"></a>
 ## 🇬🇧 English
 
-A simple GUI for the [easyeda2kicad](https://github.com/uPesy/easyeda2kicad) converter tool. This application provides a user-friendly interface to convert EasyEDA components to KiCad format.
+A simple GUI for the [easyeda2kicad](https://github.com/uPesy/easyeda2kicad.py) converter tool. This application provides a user-friendly interface to convert EasyEDA components to KiCad format.
 
 ### Features
 
@@ -38,7 +40,7 @@ If you want to modify or contribute to this project:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/easyeda2kicad_gui.git
+git clone https://github.com/HSBL-ko-gyo/easyeda2kicad_gui
 cd easyeda2kicad_gui
 ```
 
@@ -117,7 +119,7 @@ Settings including your conversion options and output folder will be automatical
 <a name="japanese"></a>
 ## 🇯🇵 日本語
 
-[easyeda2kicad](https://github.com/uPesy/easyeda2kicad)変換ツール用のシンプルなGUIアプリケーションです。このアプリケーションは、EasyEDAの部品をKiCad形式に変換するための使いやすいインターフェースを提供します。
+[easyeda2kicad](https://github.com/uPesy/easyeda2kicad.py)変換ツール用のシンプルなGUIアプリケーションです。このアプリケーションは、EasyEDAの部品をKiCad形式に変換するための使いやすいインターフェースを提供します。
 
 ### 機能
 
@@ -133,7 +135,7 @@ Settings including your conversion options and output folder will be automatical
 
 ### ダウンロードと使用方法
 
-1. [リリースページ](https://github.com/YOUR_USERNAME/easyeda2kicad_gui/releases)にアクセス
+1. [リリースページ](https://github.com/HSBL-ko-gyo/easyeda2kicad_gui/releases)にアクセス
 2. 最新の`easyeda2kicad_gui.exe`ファイルをダウンロード
 3. 実行ファイルを実行
 
@@ -146,7 +148,7 @@ Settings including your conversion options and output folder will be automatical
 1. リポジトリをクローン：
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/easyeda2kicad_gui.git
+git clone https://github.com/HSBL-ko-gyo/easyeda2kicad_gui
 cd easyeda2kicad_gui
 ```
 
