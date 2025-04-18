@@ -225,5 +225,3 @@ pyinstaller_options = [
 ## License
 
 This project is licensed under the GNU Affero General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
-This software includes the [easyeda2kicad](https://github.com/uPesy/easyeda2kicad) tool which is also licensed under the AGPL-3.0 license. 
