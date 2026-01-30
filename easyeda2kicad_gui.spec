@@ -5,7 +5,7 @@ a = Analysis(
     ['easyeda2kicad_gui.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('LICENSE', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

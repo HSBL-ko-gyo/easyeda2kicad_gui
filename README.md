@@ -165,6 +165,22 @@ pyinstaller_options = [
 
 ---
 
+## 📝 Changelog
+
+### 2026-01-30
+
+#### 🐛 Bug Fixes
+- **依存関係チェックの改善**: `pkg_resources` から `importlib.util.find_spec` に変更し、パッケージ検出の信頼性を向上
+- **実行方法の修正**: `easyeda2kicad` を `python -m easyeda2kicad` として実行するように変更し、Windows環境でのPATH問題を解決
+- **ログ表示の改善**: ログウィンドウのフォントを等幅フォント (`TkFixedFont`) に変更し、部品情報のインデント崩れを修正
+
+#### 🐛 Bug Fixes (English)
+- **Improved dependency check**: Changed from `pkg_resources` to `importlib.util.find_spec` for more reliable package detection
+- **Fixed execution method**: Changed to run `easyeda2kicad` as `python -m easyeda2kicad` to resolve PATH issues on Windows
+- **Improved log display**: Changed log window font to monospaced font (`TkFixedFont`) to fix indentation issues in parts information
+
+---
+
 ## 📄 License
 
 This project is licensed under the GNU Affero General Public License v3.0 - see the [LICENSE](LICENSE) file for details.

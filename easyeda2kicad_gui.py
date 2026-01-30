@@ -43,11 +43,7 @@ GITHUB_URL = "https://github.com/HSBL-ko-gyo/easyeda2kicad_gui"
 
 # easyeda2kicadがインストールされているかを正確に確認する
 def is_easyeda2kicad_installed():
-    try:
-        pkg_resources.get_distribution("easyeda2kicad")
-        return True
-    except pkg_resources.DistributionNotFound:
-        return False
+    return importlib.util.find_spec("easyeda2kicad") is not None
 
 # 依存パッケージのインストール
 def install_dependency():
@@ -157,7 +153,7 @@ def run_converter():
         if not check_dependencies():
             return
     
-    cmd = ["easyeda2kicad",
+    cmd = [sys.executable, "-m", "easyeda2kicad",
            f"--lcsc_id={lcsc_id}"]
     
     if full_var.get():
@@ -324,7 +320,7 @@ log_frame = ttk.LabelFrame(frame, text="log")
 log_frame.grid(row=7, column=0, columnspan=3, sticky=(tk.W, tk.E, tk.N, tk.S), pady=5)
 
 # ログテキストウィジェットの設定を修正
-log_text = scrolledtext.ScrolledText(log_frame, width=80, height=15, wrap=tk.WORD)
+log_text = scrolledtext.ScrolledText(log_frame, width=80, height=15, wrap=tk.WORD, font="TkFixedFont")
 log_text.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 log_text.config(state=tk.NORMAL)  # 確実に編集可能状態に設定
 
