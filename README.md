@@ -30,7 +30,7 @@ This app lets you easily convert EasyEDA components to KiCad format.
 
 ### 📦 Download & Use
 
-1. Go to the [Releases page](https://github.com/YOUR_USERNAME/easyeda2kicad_gui/releases)
+1. Go to the [Releases page](https://github.com/HSBL-ko-gyo/easyeda2kicad_gui/releases)
 2. Download the latest `easyeda2kicad_gui.exe`
 3. Run the executable – the app helps you install what’s needed
 
